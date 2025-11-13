@@ -11,7 +11,8 @@ console.log("sonu");
 
 let name = "sonu";
 let age = 21;
-isLoggedIn = false;
+//isLoggedIn = false;
+let state;
 
 // number => 2 to power 53
 // bigint => larger than 2 to power 53
@@ -21,3 +22,11 @@ isLoggedIn = false;
 //null => standalone value
 //undefined => variable not assigned value
 //symbol => unique identifier
+
+//object
+
+console.log(typeof age);
+
+console.log(typeof"sonu")
+console.log(typeof undefined) //undefined
+console.log(typeof null) //object
